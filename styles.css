@@ -68,7 +68,7 @@ p {
 .title-image {
     width: 60%;
     transform: rotate(20deg);
-    z-index: -1;
+    z-index: 1;
     position: absolute;
 }
 
@@ -129,8 +129,9 @@ p {
 }
 
 .press-logo {
-    width: 10%;
-    margin: 10px 10px 10px 10px;
+    width: 15%;
+    height: auto;
+    margin: 40px 40px 40px 40px;
 }
 
 /* Pricing Section */
@@ -158,7 +159,7 @@ p {
 }
 
 .cta-heading {
-    font-family: 'Arial'
+    font-family: 'Arial';
     font-weight: bold;
     font-size: 3.5rem;
     line-height: 1.5;
